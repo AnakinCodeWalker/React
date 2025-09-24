@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from './card'
-export const Details = () => {
+export const Details = (props) => {
   return (
   <>
-  <div>Details</div>
+  <div>Details {props.name}</div>
     <Card/>
     </>
     
